@@ -42,4 +42,4 @@ riscv64-linux-gnu-gcc --version
 #warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 ## 推送代码到github
-参考：https://xv6.dgs.zone/labs/use_git/git1.html
+参考：[版本控制 · 6.S081 All-In-One (dgs.zone)](https://xv6.dgs.zone/labs/use_git/git1.html)
