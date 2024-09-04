@@ -41,5 +41,5 @@ riscv64-linux-gnu-gcc --version
 #This is free software; see the source for copying conditions.  There is NO
 #warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
-# 推送代码到github
+## 推送代码到github
 参考：https://xv6.dgs.zone/labs/use_git/git1.html
