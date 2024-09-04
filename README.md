@@ -49,12 +49,10 @@ exit
 # 启动容器
 docker start MIT6.1810
 # 进入shell
-docker exec -it MIT6.1810 /bin/bash
+docker attach MIT6.1810
 
-# 退出容器，但仍在后台运行
+# 退出容器，容器自动停止运行
 exit
-# 停止容器
-docker stop MIT6.1810
 ```
 ## 推送代码到github
 参考：[版本控制 · 6.S081 All-In-One (dgs.zone)](https://xv6.dgs.zone/labs/use_git/git1.html)
