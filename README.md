@@ -40,6 +40,21 @@ riscv64-linux-gnu-gcc --version
 #Copyright (C) 2023 Free Software Foundation, Inc.
 #This is free software; see the source for copying conditions.  There is NO
 #warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+#退出容器
+exit
+```
+## 重启容器
+```bash
+# 启动容器
+docker start MIT6.1810
+# 进入shell
+docker exec -it MIT6.1810 /bin/bash
+
+# 退出容器，但仍在后台运行
+exit
+# 停止容器
+docker stop MIT6.1810
 ```
 ## 推送代码到github
 参考：[版本控制 · 6.S081 All-In-One (dgs.zone)](https://xv6.dgs.zone/labs/use_git/git1.html)
